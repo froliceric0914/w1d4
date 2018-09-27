@@ -18,9 +18,10 @@ var nameFunction = function(a, b) {
     return 1;
   }
     // return a.name.localeCompare(b.name);
-;
+    else {
+      return 0;
     }
-
+  }
 
 
 console.log(students.sort(nameFunction))
